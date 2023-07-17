@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us - The Doodle Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h3><b>We'd Love to Have You As Our Affiliate</b></h3>
+        <h1><b>The Doodle Cafe</b></h1>
+    </center>
+    <form>
+        <Fieldset class="yourinfo">
+            <legend>Your Info</legend>
+            <p>Your Name <input type="text" placeholder="Enter Name Here" required></p>
+            <p>Contact Number <input type="Number" maxlength="11" placeholder="03xxxxxxxxx" required></p>
+            <p>Email Address <input type="email" placeholder="example: abc@abc.com" required></p>
+            <p>Gender<input type="radio" name="Gender" value="male" checked required>Male <input type="Radio"
+                    name="Gender" value="female">Female <input type="Radio" name="Gender" value="other">Other</p>
+            <p>Date of Birth <input type="date" required></p>
+            <p>Location
+                <select name="City Name" id="Enter Locations">
+                    <option value="City" disabled selected>Select</option>
+                    <option value="Khi">Karachi</option>
+                    <option value="Lhr">Lahore</option>
+                    <option value="Isl">Islamabad</option>
+                    <option value="Other">Other</option>
+                </select>
+            </p>
+            <p>Please specify if selected 'other' <input type="text"></p>
+            <p>Please upload your recent formal photograph <input type="file" required></p>
+        </Fieldset>
+        <br>
+        <br>
+        <fieldset class="education">
+            <legend>Education</legend>
+            <p>Your Current Qualifcation <input type="Text" required></p>
+            <p>Institute <input type="Text" required></p>
+            <p>Graduation Year <input type="number" min="1990" max="2023" step="1" value="2022" required></p>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset class="work">
+            <legend>Work Details</legend>
+            <p>Weekly time you can assign for work</p>
+            <p>Your current job <input type="text" required></p>
+            <p>How many hours do you work currently at your job? <input type="text" placeholder="number of daily hours"
+                    required></p>
+            <p><input type="checkbox" required>5 to 6 hours</p>
+            <p><input type="checkbox">7 to 12 hours</p>
+            <p><input type="checkbox">13 hours or more</p>
+        </fieldset>
+        <br>
+        <button>
+            Submit Application
+        </button>
+        We'll get back to you soon :)
+    </form>
+</body>
+
+</html>
